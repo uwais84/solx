@@ -15,7 +15,7 @@ export const Header = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { pathname } = useLocation();
-  const [logoSrc, setLogoSrc] = useState("images/logo-sx-wt-15.png");
+  const [logoSrc, setLogoSrc] = useState("/images/logo-sx-wt-15.png");
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
